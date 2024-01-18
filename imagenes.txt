@@ -1,0 +1,63 @@
+<nav class="item">
+                        <ul class="item__imagens">
+                            <li class="item__list-imagen">
+                                <img src="./images/__item.jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (1).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (2).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (3).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (4).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (5).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (6).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                            <li class="item__list-imagen">
+                                <img src="./images/__item (7).jpg" alt="imagen" class="item__imagen">
+                            </li>
+                        </ul>    
+                <section class="place">
+                    <h2 class="place__title">Kiev, Ucrania</h2>
+                    <div class="place__url-heading">   
+                        <h2>ARTISTA</h2>
+                    </div> 
+                    <div class="place__artist">
+                        <h2>Natalia Dolgushina, productora de contenidos</h2>
+                    </div>
+                    <div class="place__imagen">
+                        <img src="./images/__image.jpg" alt="imagen" class="place__imagen">
+                    </div>
+                    <div class="place__paragraph">
+                        <p>Kiev (o Kyiv), la capital de Ucrania, es una gran ciudad situada 
+                            a orillas del río Dniéper. Por supuesto, nadie en su sano juicio 
+                            se bañaría en el río, a menos que se haya criado aquí, en cuyo caso 
+                            probablemente lo haya intentado en algún momento. Los veranos son 
+                            calurosos aquí, y los inviernos con fuertes corrientes de aire, 
+                            pero el otoño y la primavera son absolutamente increíbles.
+                        </p>
+                        <p>La ciudad en sí es una mezcla de arquitectura prerrevolucionaria,
+                            de posguerra y soviética, toda ella salpicada de balcones modificados.
+                            Si te encuentras en la orilla derecha del Dniéper, el paisaje es 
+                            difícil de atravesar para las personas en bicicleta y las que llevan 
+                            tacones. Sin embargo, la orilla izquierda es considerada mucho menos 
+                            interesante y prestigiosa, incluso por la gente que vive en las afueras
+                            de la derecha.
+                        </p>
+                    </div>
+                    <a href="#" class="place__button"
+                    >Compra esta obra de arte como NFT</a
+                  >  
+                </section>
+                
+            <footer calss="footer">
+                <p class="footer__copyright">© 2024. Diana Yamilet Espinoza</p>
+            </footer>

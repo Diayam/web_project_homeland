@@ -1,0 +1,162 @@
+body {
+    background-color: #2A2C2F;
+}
+
+.page {
+    max-width: 100%;
+    margin: auto;
+    font-family: "Inter";
+    background-color: #2a2c2f;
+    color: #fff;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+
+.lead__title {
+    max-width: 793px;
+    max-height: 200px;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.header__logo {
+    margin-top: 36px;
+}
+
+.lead__subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  
+}
+
+.lead__images{
+    width: 984px;
+    height: 615px;
+    flex-shrink: 0;
+    margin-top: 64px; 
+}
+
+.intro__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px; 
+    margin-top: 92px;;
+    width: 1017px;
+    height: 116px;
+}
+
+.intro__text-description {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+    width: 722px;
+    margin-top: 40px;
+}
+
+.intro__autor{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+}
+
+.intro__description {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163%; 
+    width: 720px;
+    margin-top: 32px;
+}
+
+
+
+.item__imagen-grid {
+    margin-top: 92px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    list-style: none;
+  
+}
+
+
+
+
+
+.place__button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #0063d2;
+    position: relative;
+    text-align: center;
+}
+
+
+ 
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+    .lead__images {
+        max-width: 320px;
+        max-height: 200px;
+   
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lead__images {
+        max-width: 768px;
+        max-height: 480px;
+       
+      }
+}
