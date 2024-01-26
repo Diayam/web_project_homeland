@@ -241,11 +241,11 @@ body {
 }
 
 .covers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
 }
 
 .cover__title {
@@ -257,7 +257,7 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: 76px;
-position: relative;
+    position: relative;
 }
 
 .cover__subtitle {
@@ -271,6 +271,23 @@ position: relative;
     line-height: 22px;
     /* 122.222% */
 
+}
+
+
+.footer {
+    margin-top: 92px;
+}
+
+.footer__copyright {
+    color: #FFF;
+    max-width: 191px;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
 }
 
 @media screen and (max-width: 768px) {
