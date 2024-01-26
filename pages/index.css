@@ -7,15 +7,16 @@
 body {
     background-color: #2A2C2F;
 }
-.intro{
-    
-        margin: auto;
-        text-align: left;
-        max-width: 1017px;
-        display: flex;
-        flex-direction: column;
-      
-      
+
+.intro {
+
+    margin: auto;
+    text-align: left;
+    max-width: 1017px;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .page {
@@ -28,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-     text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -73,12 +74,12 @@ body {
 }
 
 .intro {
-   display: flex;
-   flex-direction: column;
-   margin: auto;
-   text-align: left;
-   max-width: 1017px;
-   
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    max-width: 1017px;
+
 }
 
 .intro__title {
@@ -131,12 +132,15 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
     list-style: none;
-   
+
 
 }
-.item__imagen{ object-fit: cover;
+
+.item__imagen {
+    object-fit: cover;
     object-position: center;
-    width: 100%;}
+    width: 100%;
+}
 
 .places {
     margin: auto;
@@ -152,8 +156,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* align-items: end; */
-   
-  }
+
+}
 
 .place__title {
     color: #FFF;
@@ -202,7 +206,7 @@ body {
     font-weight: 400;
     line-height: 163%;
     padding-bottom: 16px;
-    
+
 }
 
 .place__button {
@@ -217,16 +221,57 @@ body {
     position: relative;
     text-align: center;
     margin-top: 61px;
- 
+
 
 }
+
 .place__button:hover {
     background-color: #0052a1;
     transform: scale(1.05);
     transition: background-color 0.3s ease-in-out;
-  }
+}
 
+.overlay {
+    margin: 105px;
+}
 
+.cover__imagen {
+    max-width: 1184px;
+    height: 740px;
+}
+
+.covers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.cover__title {
+    color: #FFFDFD;
+    max-width: 656px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+position: relative;
+}
+
+.cover__subtitle {
+    color: #FFF;
+    max-width: 280px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 122.222% */
+
+}
 
 @media screen and (max-width: 768px) {
     .lead__title {
@@ -235,14 +280,16 @@ body {
         line-height: 44px;
         margin-top: 60px;
     }
+
     .place__image {
         max-width: 320px;
-      }
-      .place__paragraph {
+    }
+
+    .place__paragraph {
         max-width: 288px;
         font-size: 16px;
         line-height: 163%;
-      }
+    }
 
     .lead__subtitle {
         max-width: 288px;
@@ -272,7 +319,7 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 30px;
-    
+
     }
 
     .intro__text-description2 {
@@ -289,7 +336,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-      
+
     }
 
     .item__list-imagen {
@@ -297,8 +344,8 @@ body {
         object-position: center;
         width: 100%;
     }
-    
-      /* .places {
+
+    /* .places {
         max-width: 987px;
         margin-top: 92px;
         
@@ -308,7 +355,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 20px;
-      }
+    }
 
     .place-title {
         max-width: 288px;
@@ -325,14 +372,14 @@ body {
         line-height: 15px;
         font-weight: 400;
         letter-spacing: 1.44px;
-       
-   }
 
-   .place__artist {
-    max-width: 288px;
-    line-height: 44px;
-   }
-   
+    }
+
+    .place__artist {
+        max-width: 288px;
+        line-height: 44px;
+    }
+
 }
 
 
@@ -341,12 +388,13 @@ body {
     .lead__images {
         max-width: 768px;
         max-height: 480px;
-  
+
     }
+
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
-      }
+    }
 
     .intro__title {
         max-width: 720px;
@@ -364,9 +412,10 @@ body {
 
     .item__imagen-grid {
         grid-template-columns: repeat(2, 1fr);
-       
-       
+
+
     }
+
     .place {
         grid-template-columns: minmax(min-content, 340px) 1fr;
         gap: 28px;
@@ -379,19 +428,20 @@ body {
         line-height: 46px;
         font-style: normal;
     }
+
     .place__url-hading {
         font-size: 12px;
         max-width: 58px;
         line-height: 15px;
         font-weight: 400;
         letter-spacing: 1.44px;
-       
-   }
 
-   .place__artist {
-    max-width: 295px;
-    line-height: 44px;
-   }
-   
+    }
+
+    .place__artist {
+        max-width: 295px;
+        line-height: 44px;
+    }
+
 
 }
