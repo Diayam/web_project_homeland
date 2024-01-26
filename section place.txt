@@ -1,10 +1,10 @@
 <section class="place">
-                    <h2 class="place__title">Criccieth, Gales</h2>
+                    <h2 class="place__title"></h2>
                     <div class="place__url-heading">   
                         <h2>ARTISTA</h2>
                     </div> 
                     <div class="place__artist">
-                        <h2>Steffan Warren, editor principal</h2>
+                        <h2>Steffan</h2>
                         <h2>Kseniya Glagoleva, directora del proyecto</h2>
                     </div>
                     <div class="place__imagen">
