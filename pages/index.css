@@ -7,6 +7,16 @@
 body {
     background-color: #2A2C2F;
 }
+.intro{
+    
+        margin: auto;
+        text-align: left;
+        max-width: 1017px;
+        display: flex;
+        flex-direction: column;
+      
+      
+}
 
 .page {
     max-width: 100%;
@@ -121,9 +131,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
     list-style: none;
-    max-width: 1184px;
    
+
 }
+.item__imagen{ object-fit: cover;
+    object-position: center;
+    width: 100%;}
 
 .places {
     display: flex;
