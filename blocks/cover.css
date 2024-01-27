@@ -19,12 +19,9 @@
     background-repeat: no-repeat;
 
 }
-
-/*.covers__overlay:hover::before {
-    background-color: #2a2c2f;
-    opacity: 0.8;
-    transition: background-color 0.3s ease-in-out;
-  }*/
+.cover__overlay:hover{
+    opacity: .5 ;
+}
 
 .covers {
     display: flex;
