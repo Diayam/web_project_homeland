@@ -15,3 +15,13 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2A2C2F;
+}
