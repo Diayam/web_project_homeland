@@ -10,5 +10,6 @@ los repositorios responsivos y adaptables para los ajustes de pantallas.
 el @media screen (mediaquerin)  que te permite cambiar los estilos de un elemento que 
 funciona de las dimenciones de pantallas de un dispositivo.
 
-
+Al temino el pryecto se debe subir o guardar en GuitHub 
+https://github.com/Diayam/web_project_homeland
 

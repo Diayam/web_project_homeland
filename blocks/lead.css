@@ -41,6 +41,7 @@
         line-height: 20px;
 
     }
+    
 
     .lead__images {
         max-width: 320px;
@@ -58,6 +59,9 @@
         max-width: 768px;
         max-height: 480px;
 
+    }
+    .lead{
+        text-align: center;
     }
 
 
