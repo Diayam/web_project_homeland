@@ -3,7 +3,7 @@
     height: 100px;
 }
 
-.cover__overlay {
+.cover {
     position: relative;
     display: flex;
     height: 740px;
@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
 
 }
-.cover__overlay:hover{
+.cover:hover{
     opacity: .5;
 }
 
@@ -78,9 +78,8 @@
 
 @media screen and (max-width: 768px) {
 
-    .cover__overlay {
-        
-        height: 254px;
+    .cover {
+         height: 254px;
     }
 
     .cover__title {
@@ -109,7 +108,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    .cover__overlay {
+    .cover {
         max-width: 768px;
         height: 746px;
     }
