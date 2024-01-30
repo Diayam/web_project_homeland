@@ -10,6 +10,10 @@ los repositorios responsivos y adaptables para los ajustes de pantallas.
 el @media screen (mediaquerin)  que te permite cambiar los estilos de un elemento que 
 funciona de las dimenciones de pantallas de un dispositivo.
 
-Al temino el pryecto se debe subir o guardar en GuitHub 
-https://github.com/Diayam/web_project_homeland
+Trabajamos con el diseñp en figma en el cual se elavoro el proyecto.
+
+https://www.figma.com/file/tjwtMvCQkauaKN43QWlSsI/Web_Brief_Sprint_4_ES-%7C-De-patria-a-patria-%7C-desktop-%2B-mobile?type=design&node-id=0-1&mode=design&t=EIpNU1v2xgf5bz9n-0
+
+
+Da clic aqui para ve mi pagina https://diayam.github.io/web_project_homeland/
 
