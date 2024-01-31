@@ -1,7 +1,7 @@
-## Nombre del pryecto#
+## Nombre del proyecto
  Tripleten web_project_homeland
 
- ## Descripcion del Pryecto 
+ ## Descripcion del Proyecto.
 Este proyecto esta basado en la descripcion de un viaje de galeria  el cual describe 
 5 paises  por el mundo, describiendo sus cualididades cada uno.
 Se trabajo con diseño de FIGMA 
