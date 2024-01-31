@@ -16,9 +16,21 @@
     background-repeat: no-repeat;
 
 }
-.cover:hover{
-    opacity: .5;
-}
+
+
+.cover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .cover:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
 
 .covers {
     display: flex;
@@ -67,7 +79,7 @@
     text-decoration: none;
    
 }
- .cover__button:hover{
+ cover__button:hover{
     background-color: #0052a1;
     transform: scale(1.05);
     transition: background-color 0.3s ease-in-out;
