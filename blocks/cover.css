@@ -77,10 +77,12 @@
     gap: 10px;
     color: #fff;
     text-decoration: none;
+    border-radius: 0.5rem;
    
 }
- cover__button:hover{
+ .cover__button:hover{
     background-color: #0052a1;
+    
     transform: scale(1.05);
     transition: background-color 0.3s ease-in-out;
  }

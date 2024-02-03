@@ -1,9 +1,18 @@
+.places{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 .place {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 90px;
     align-items: center;
+
 
 }
 
